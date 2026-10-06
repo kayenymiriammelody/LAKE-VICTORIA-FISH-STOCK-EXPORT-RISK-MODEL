@@ -9,7 +9,7 @@ This project aims to find out whether:
 - Created a PriceModel class that simulates weekly price in UGX/kg.
 - Created a RiskAssessor class that classifies risk with a justified rule based on coefficient of variation.
 - Ran a Monte Carlo simulation
-- Illustrated findings
+- Illustrated the findings
 ### FINDINGS, LIMITATIONS AND RECOMMENDATIONS
 - Unbounded Fibonacci growth is unrealistic because it assumes that fish stock will keep increasing with time. It doesn’t account for death of fish due to diseases, competition and variations in living conditions among others. It also doesn’t take into account the reduction in fish population after the fish has been sold.
 - After implementing the  FishStock class with an initial stock of4000 tonnes, the final stock after 52 weeks was found to be 7499.999925392722 tonnes and the total amount of fish harvested was 37362.5084681044 tonnes.
